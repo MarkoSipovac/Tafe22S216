@@ -20,12 +20,28 @@ namespace Calculator
 	/// <summary>
 	/// An empty page that can be used on its own or navigated to within a Frame.
 	/// </summary>
-	public sealed partial class BlankPage1 : Page
+	public sealed partial class BlankPage2 : Page
 	{
-		public BlankPage1()
+		public BlankPage2()
 		{
 			this.InitializeComponent();
 		}
 
+
+		private void calculateButton_Click(object sender, RoutedEventArgs e)
+		{
+			float P = float.Parse(principleTxtBox.Text);
+			float months = float.Parse(monthsTxtBox.Text);
+			float years = float.Parse(yearsTxtBox.Text);
+			float yearInterest = float.Parse(yearInterestTxtBox.Text);
+			float n = (years * 12) + months;
+			float i = ((yearInterest / 100) / 12);
+			float M;
+
+			M = (float)(P *((i * Math.Pow(1 + i, n) / Math.Pow(1 + i, n - 1))));
+
+			monthInterestTxtBox.Text = i.ToString();
+			repaymentTxtBox.Text = M.ToString();
+		}
 	}
 }
