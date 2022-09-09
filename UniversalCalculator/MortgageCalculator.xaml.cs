@@ -35,7 +35,7 @@ namespace Calculator
 			float years = float.Parse(yearsTxtBox.Text);
 			float yearInterest = float.Parse(yearInterestTxtBox.Text);
 			float n = (years * 12) + months;
-			float i = ((yearInterest / 100) / 12);
+			float i = yearInterest / 12;
 			float M;
 
 			M = (float)(P *((i * Math.Pow(1 + i, n) / Math.Pow(1 + i, n - 1))));

@@ -15,7 +15,7 @@
         <TextBlock HorizontalAlignment="Left" Margin="456,260,0,0" TextWrapping="Wrap" Text="Years:" VerticalAlignment="Top" FontSize="30"/>
         <TextBox x:Name="yearsTxtBox" HorizontalAlignment="Left" Height="67" Margin="625,246,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="368" FontSize="20" PlaceholderText="Enter number of years"/>
         <TextBox x:Name="monthsTxtBox" HorizontalAlignment="Left" Margin="625,338,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Height="68" Width="368" FontSize="20" PlaceholderText="Enter number of months"/>
-        <TextBox x:Name="yearInterestTxtBox" HorizontalAlignment="Left" Height="78" Margin="625,441,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="368" FontSize="20" PlaceholderText="Enter interest rate as %"/>
+        <TextBox x:Name="yearInterestTxtBox" HorizontalAlignment="Left" Height="78" Margin="625,441,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="368" FontSize="20" PlaceholderText="Enter interest rate as decimal"/>
         <TextBox x:Name="monthInterestTxtBox" HorizontalAlignment="Left" Height="69" Margin="625,546,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="368" FontSize="20"/>
         <TextBox x:Name="repaymentTxtBox" HorizontalAlignment="Left" Height="77" Margin="625,642,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="368" FontSize="20"/>
         <Button x:Name="calculateButton" Content="Calculate" Height="77" Margin="625,762,0,0" VerticalAlignment="Top" Width="368" FontSize="25" Click="calculateButton_Click"/>
