@@ -20,16 +20,11 @@ namespace Calculator
 	/// <summary>
 	/// An empty page that can be used on its own or navigated to within a Frame.
 	/// </summary>
-	public sealed partial class mainMenu : Page
+	public sealed partial class currency_conversion_calculator : Page
 	{
-		public mainMenu()
+		public currency_conversion_calculator()
 		{
 			this.InitializeComponent();
-		}
-
-		private void Button_Click(object sender, RoutedEventArgs e)
-		{
-
 		}
 	}
 }
