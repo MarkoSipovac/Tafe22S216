@@ -119,7 +119,12 @@
     <Compile Include="App.xaml.cs">
       <DependentUpon>App.xaml</DependentUpon>
     </Compile>
-    <Compile Include="MortgageCalculator.xaml.cs">
+    <Compile Include="CurrencyConversion.xaml.cs">
+      <DependentUpon>CurrencyConversion.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="mainMenu.xaml.cs">
+      <DependentUpon>mainMenu.xaml</DependentUpon>
+    </Compile>    <Compile Include="MortgageCalculator.xaml.cs">
       <DependentUpon>MortgageCalculator.xaml</DependentUpon>
     </Compile>
     <Compile Include="menu.xaml.cs">
@@ -170,6 +175,14 @@
     <Page Include="Controls\NumberButtonControl.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
+    </Page>
+    <Page Include="CurrencyConversion.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="mainMenu.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="Resources\NumberButtonControl.Resources.xaml">
       <SubType>Designer</SubType>

@@ -1,0 +1,46 @@
+﻿<Page
+    x:Class="Calculator.CurrencyConversion"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Calculator"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+	<Grid>
+		<StackPanel HorizontalAlignment="Center">
+			<TextBlock HorizontalAlignment="Left" Text="Currency Conversion Calculator" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="40" Foreground="Black"/>
+			<StackPanel>
+				<StackPanel Orientation="Horizontal">
+					<StackPanel Margin="10">
+						<TextBlock HorizontalAlignment="Left" Text="Amount $" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="40" Foreground="Black"/>
+						<TextBox x:Name="amount_TextBox" Text=""/>
+					</StackPanel>
+					<StackPanel Margin="10">
+						<TextBlock HorizontalAlignment="Left" Text="From" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="40" Foreground="Black"/>
+						<ComboBox x:Name="fromComboBox">
+							<x:String>US Dollar</x:String>
+							<x:String>Euro</x:String>
+							<x:String>British</x:String>
+							<x:String>Indian Rupee</x:String>
+						</ComboBox>
+					</StackPanel>
+					<StackPanel Margin="10">
+						<TextBlock HorizontalAlignment="Left" Text="To" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="40" Foreground="Black"/>
+						<ComboBox x:Name="toComboBox">
+							<x:String>US Dollar</x:String>
+							<x:String>Euro</x:String>
+							<x:String>British</x:String>
+							<x:String>Indian Rupee</x:String>
+						</ComboBox>
+					</StackPanel>
+				</StackPanel>
+				<TextBlock x:Name="output1"></TextBlock>
+				<TextBlock x:Name="output2"></TextBlock>
+				<Button x:Name="currencyoutput" Content="Currency Calculator" Margin="10" HorizontalAlignment="Center" Click="currencyoutput_Click"/>
+				<Button Content="Exit" Margin="10" HorizontalAlignment="Center"/>
+			</StackPanel>
+		</StackPanel>
+	</Grid>
+</Page>
