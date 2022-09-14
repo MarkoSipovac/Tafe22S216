@@ -124,7 +124,8 @@
     </Compile>
     <Compile Include="mainMenu.xaml.cs">
       <DependentUpon>mainMenu.xaml</DependentUpon>
-    </Compile>    <Compile Include="MortgageCalculator.xaml.cs">
+    </Compile>
+    <Compile Include="MortgageCalculator.xaml.cs">
       <DependentUpon>MortgageCalculator.xaml</DependentUpon>
     </Compile>
     <Compile Include="menu.xaml.cs">

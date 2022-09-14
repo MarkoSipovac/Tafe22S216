@@ -39,7 +39,7 @@
 				<TextBlock x:Name="output1"></TextBlock>
 				<TextBlock x:Name="output2"></TextBlock>
 				<Button x:Name="currencyoutput" Content="Currency Calculator" Margin="10" HorizontalAlignment="Center" Click="currencyoutput_Click"/>
-				<Button Content="Exit" Margin="10" HorizontalAlignment="Center"/>
+				<Button Content="Exit" Margin="10" HorizontalAlignment="Center" Click="Button_Click"/>
 			</StackPanel>
 		</StackPanel>
 	</Grid>

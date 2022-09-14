@@ -13,7 +13,7 @@
 		<StackPanel HorizontalAlignment="Center" VerticalAlignment="Center" Background="Beige">
 			<TextBlock HorizontalAlignment="Left" Text="Universal Calculator" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="40" Foreground="Blue"/>
 			<StackPanel HorizontalAlignment="Center">
-				<Button Content="Math Calculator" Margin="10" HorizontalAlignment="Center"/>
+				<Button Content="Math Calculator" Margin="10" HorizontalAlignment="Center" Click="Button_Click_1"/>
 				<Button Content="Mortgage Calculator" Margin="10" HorizontalAlignment="Center"/>
 				<Button Content="Currency Calculator" Margin="10" HorizontalAlignment="Center"/>
 				<Button Content="Exit" Margin="10" HorizontalAlignment="Center"/>

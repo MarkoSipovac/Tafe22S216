@@ -19,7 +19,7 @@
         <TextBox x:Name="monthInterestTxtBox" HorizontalAlignment="Left" Height="69" Margin="625,546,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="368" FontSize="20"/>
         <TextBox x:Name="repaymentTxtBox" HorizontalAlignment="Left" Height="77" Margin="625,642,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="368" FontSize="20"/>
         <Button x:Name="calculateButton" Content="Calculate" Height="77" Margin="625,762,0,0" VerticalAlignment="Top" Width="368" FontSize="25" Click="calculateButton_Click"/>
-        <Button Content="Exit" Height="62" Margin="625,897,0,0" VerticalAlignment="Top" Width="368" FontSize="20"/>
+        <Button Content="Exit" Height="62" Margin="625,897,0,0" VerticalAlignment="Top" Width="368" FontSize="20" Click="Button_Click"/>
         <TextBlock HorizontalAlignment="Left" Margin="423,352,0,0" TextWrapping="Wrap" Text="Months:" VerticalAlignment="Top" FontSize="30"/>
         <TextBlock HorizontalAlignment="Left" Height="40" Margin="272,460,0,0" TextWrapping="Wrap" Text="Yearly Interest Rate:" VerticalAlignment="Top" Width="280" FontSize="30"/>
         <TextBlock HorizontalAlignment="Left" Margin="238,561,0,0" TextWrapping="Wrap" Text="Monthly Interest Rate:" VerticalAlignment="Top" FontSize="30"/>

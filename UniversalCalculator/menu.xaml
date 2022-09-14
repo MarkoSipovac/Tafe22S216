@@ -9,9 +9,9 @@
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
     <Grid>
-        <Button Content="Maths Calculator" Height="152" Margin="0,176,0,0" VerticalAlignment="Top" Width="499" FontSize="40" HorizontalAlignment="Center"/>
-        <Button Content="Martgage Calculator" Height="152" Margin="0,375,0,0" VerticalAlignment="Top" Width="499" FontSize="40" HorizontalAlignment="Center"/>
-        <Button Content="Currency Converter" Height="152" Margin="0,564,0,0" VerticalAlignment="Top" Width="499" FontSize="40" HorizontalAlignment="Center"/>
+        <Button x:Name="maths_Button" Content="Maths Calculator" Height="152" Margin="0,176,0,0" VerticalAlignment="Top" Width="499" FontSize="40" HorizontalAlignment="Center" Click="maths_Button_Click"/>
+        <Button x:Name="martgagecalculator_Button" Content="Martgage Calculator" Height="152" Margin="0,375,0,0" VerticalAlignment="Top" Width="499" FontSize="40" HorizontalAlignment="Center" Click="martgagecalculator_Button_Click"/>
+        <Button x:Name="currencyconverter_Button" Content="Currency Converter" Height="152" Margin="0,564,0,0" VerticalAlignment="Top" Width="499" FontSize="40" HorizontalAlignment="Center" Click="currencyconverter_Button_Click"/>
         <Button Content="Exit" Height="152" Margin="0,784,0,0" VerticalAlignment="Top" Width="499" FontSize="40" HorizontalAlignment="Center"/>
         <TextBlock HorizontalAlignment="Left" Height="142" Margin="516,10,0,0" TextWrapping="Wrap" Text="Universal Calculator" VerticalAlignment="Top" Width="503" FontSize="50" FontWeight="Bold"/>
         <Image HorizontalAlignment="Left" Height="76" Margin="1381,15,0,0" VerticalAlignment="Top" Width="101" Source="/Assets/abacus.PNG" RenderTransformOrigin="0.5,0.5" UseLayoutRounding="False" d:LayoutRounding="Auto">

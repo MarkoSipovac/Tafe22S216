@@ -43,5 +43,10 @@ namespace Calculator
 			monthInterestTxtBox.Text = i.ToString();
 			repaymentTxtBox.Text = M.ToString();
 		}
+
+		private void Button_Click(object sender, RoutedEventArgs e)
+		{
+			this.Frame.Navigate(typeof(BlankPage1));
+		}
 	}
 }
