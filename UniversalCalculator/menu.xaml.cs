@@ -41,5 +41,10 @@ namespace Calculator
 		{
 			this.Frame.Navigate(typeof(MainPage));
 		}
+
+		private void tripcalculator_Button_Click(object sender, RoutedEventArgs e)
+		{
+			//Trip Calculator C# code will be developed later
+		}
 	}
 }
